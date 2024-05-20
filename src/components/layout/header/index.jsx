@@ -23,6 +23,9 @@ const Header = () => {
             <li className="header__item">
               <NavLink className="header__link">Login</NavLink>
             </li>
+            <li className="header__item">
+              <NavLink to={'/nusratillo'} className="header__link">Nusratillo</NavLink>
+            </li>
           </ul>
         </div>
       </nav>
