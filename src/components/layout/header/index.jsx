@@ -1,6 +1,8 @@
-import React from "react";
 import "./header.scss";
+
+import AAA from "../../../pages/AAA";
 import { NavLink } from "react-router-dom";
+import React from "react";
 
 const Header = () => {
   return (
@@ -22,6 +24,11 @@ const Header = () => {
             </li>
             <li className="header__item">
               <NavLink className="header__link">Login</NavLink>
+            </li>
+            <li className="header__item">
+              <NavLink to="aaa" className="header__link">
+                abdulaziz
+              </NavLink>
             </li>
           </ul>
         </div>
