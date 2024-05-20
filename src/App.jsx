@@ -1,8 +1,10 @@
-import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
+
+import AAA from "./pages/AAA";
+import About from "./pages/about";
+import { Fragment } from "react";
 import Home from "./pages/home";
 import Layout from "./components/layout";
-import About from "./pages/about";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="aaa" element={<AAA />} />
           <Route path="about" element={<About />} />
         </Route>
       </Routes>
