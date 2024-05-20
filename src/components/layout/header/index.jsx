@@ -23,6 +23,11 @@ const Header = () => {
             <li className="header__item">
               <NavLink className="header__link">Login</NavLink>
             </li>
+            <li className="header__item">
+              <NavLink to={"/iskandar"} className="header__link">
+                Iskandar
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>
