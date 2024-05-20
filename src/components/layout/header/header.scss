@@ -1,0 +1,30 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #b3b2b2;
+    padding: 15px 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__link {
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+    }
+}
